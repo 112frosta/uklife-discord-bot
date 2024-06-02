@@ -19,6 +19,7 @@ export const initializeCommands = async (client: Client) => {
     file.endsWith(".ts")
   );
 
+  //Dev Only
   console.log(`(/) Found ${files.length} commands`);
 
   for (const file of files) {
