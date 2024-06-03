@@ -12,4 +12,6 @@ export const config = new SlashCommandBuilder()
 
 export const execute: CommandExecute = async (interaction) => {
   await interaction.reply("Pong!");
+
+  const option = interaction.options.get("input");
 };
